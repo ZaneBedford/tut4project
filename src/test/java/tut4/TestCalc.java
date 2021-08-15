@@ -7,4 +7,9 @@ public class TestCalc {
 	public void Testadd() {
 		assertEquals(Calc.add(2,1),3);
 	}
+	
+	@Test
+	public void Testsubtract() {
+		assertEquals(Calc.subtract(2,1),1);
+	}
 }
